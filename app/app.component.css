@@ -1,0 +1,142 @@
+.image-logo {
+  width: 100%;
+  max-width: 50%;
+}
+
+.branding {
+  color: #8bb0d9;
+  font-weight: 800;
+}
+
+.branding-title {
+  color: #8bb0d9;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+.about {
+  z-index: -1;
+  width: 100%;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .about-title {
+  width: 100%;
+  background-color: #1665c007;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin: 0 auto;
+  -webkit-text-decoration: underline #1664c0 2px;
+          text-decoration: underline #1664c0 2px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+}
+
+.about .about-subtitle {
+  width: 100% !important;
+  max-width: 1024px;
+  padding: 15px;
+  text-align: justify;
+  font-family: "Rokkitt", serif !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+
+.about .about-subtitle--1 {
+  margin-top: 25px;
+}
+
+.about .video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.about .video iframe {
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.about .contact {
+  width: 100%;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.about .contact .contact-title {
+  font-size: 18px;
+  padding: 15px;
+}
+
+.about .contact .contact-item,
+.about .contact .contact-title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+}
+
+.about .contact .contact-item p,
+.about .contact .contact-item a,
+.about .contact .contact-title p,
+.about .contact .contact-title a {
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.about .contact .contact-item a,
+.about .contact .contact-title a {
+  padding-left: 10px;
+}
+
+.about .contact .code {
+  padding: 5px;
+  font-size: 1.2em;
+}
+/*# sourceMappingURL=app.component.css.map */
